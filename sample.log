@@ -1,0 +1,31 @@
+[12/15/14 18:24:29:528 EST] 0000002e EventLogging		I BEGIN requestID=AAY6TalVDTO_AAAAAAAAAAK # eventType=websphere.servlet.service # contextInfo=TradeWeb | TradeScenarioServlet
+[12/15/14 18:24:29:531 EST] 0000002e EventLogging		I BEGIN requestID=AAY6TalVDTO_AAAAAAAAAAK # eventType=websphere.servlet.service # contextInfo=TradeWeb | TradeAppServlet
+[12/15/14 18:24:29:532 EST] 0000002e EventLogging		I BEGIN requestID=AAY6TalVDTO_AAAAAAAAAAK # eventType=websphere.servlet.service # contextInfo=TradeWeb | /quote.jsp
+[12/15/14 18:24:29:533 EST] 0000002e EventLogging		I BEGIN requestID=AAY6TalVDTO_AAAAAAAAAAK # eventType=websphere.servlet.service # contextInfo=TradeWeb | /displayQuote.jsp
+[12/15/14 18:24:29:534 EST] 0000002e EventLogging		I BEGIN requestID=AAY6TalVDTO_AAAAAAAAAAK # eventType=websphere.datasource.psExecuteQuery # contextInfo=jdbc/TradeDataSource | select * from quoteejb q where q.symbol=?
+[12/15/14 18:24:29:547 EST] 0000002e EventLogging		I END requestID=AAY6TalVDTO_AAAAAAAAAAK # eventType=websphere.datasource.psExecuteQuery # contextInfo=jdbc/TradeDataSource | select * from quoteejb q where q.symbol=? # duration=12.537ms
+[12/15/14 18:24:29:556 EST] 0000002e EventLogging		I END requestID=AAY6TalVDTO_AAAAAAAAAAK # eventType=websphere.servlet.service # contextInfo=TradeWeb | /displayQuote.jsp # duration=22.171ms
+[12/15/14 18:24:29:671 EST] 0000002e EventLogging		I BEGIN requestID=AAY6TalVDTO_AAAAAAAAAAK # eventType=websphere.servlet.service # contextInfo=TradeWeb | /displayQuote.jsp
+[12/15/14 18:24:29:672 EST] 0000002e EventLogging		I BEGIN requestID=AAY6TalVDTO_AAAAAAAAAAK # eventType=websphere.datasource.psExecuteQuery # contextInfo=jdbc/TradeDataSource | select * from quoteejb q where q.symbol=?
+[12/15/14 18:24:29:677 EST] 0000002e EventLogging		I END requestID=AAY6TalVDTO_AAAAAAAAAAK # eventType=websphere.datasource.psExecuteQuery # contextInfo=jdbc/TradeDataSource | select * from quoteejb q where q.symbol=? # duration=4.968ms
+[12/15/14 18:24:29:684 EST] 0000002e EventLogging		I END requestID=AAY6TalVDTO_AAAAAAAAAAK # eventType=websphere.servlet.service # contextInfo=TradeWeb | /displayQuote.jsp # duration=12.569ms
+[12/15/14 18:24:29:685 EST] 0000002e EventLogging		I END requestID=AAY6TalVDTO_AAAAAAAAAAK # eventType=websphere.servlet.service # contextInfo=TradeWeb | /quote.jsp # duration=152.752ms
+[12/15/14 18:24:29:686 EST] 0000002e EventLogging		I END requestID=AAY6TalVDTO_AAAAAAAAAAK # eventType=websphere.servlet.service # contextInfo=TradeWeb | TradeAppServlet # duration=154.616ms
+[12/15/14 18:24:29:687 EST] 0000002e EventLogging		I END requestID=AAY6TalVDTO_AAAAAAAAAAK # eventType=websphere.servlet.service # contextInfo=TradeWeb | TradeScenarioServlet # duration=158.283ms
+[12/15/14 18:24:29:687 EST] 0000002e EventLogging		I END requestID=AAY6TalVDTO_AAAAAAAAAAK # eventType=websphere.servlet.service # contextInfo=TradeWeb | TradeScenarioServlet # duration=158.283ms
+[12/15/14 18:24:29:687 EST] 0000002e EventLogging		I END requestID=AAY6TalVDTO_AAAAAAAAAAK # eventType=websphere.servlet.service # contextInfo=TradeWeb | TradeScenarioServlet # duration=158.283ms
+[12/15/14 18:24:29:687 EST] 0000002e EventLogging		I END requestID=AAY6TalVDTO_AAAAAAAAAAK # eventType=websphere.servlet.service # contextInfo=TradeWeb | TradeScenarioServlet # duration=158.283ms
+[12/15/14 18:24:29:687 EST] 0000002e EventLogging		I END requestID=AAY6TalVDTO_AAAAAAAAAAK # eventType=websphere.servlet.service # contextInfo=TradeWeb | TradeScenarioServlet # duration=158.283ms
+[12/15/14 18:24:29:687 EST] 0000002e EventLogging		I END requestID=AAY6TalVDTO_AAAAAAAAAAK # eventType=websphere.servlet.service # contextInfo=TradeWeb | TradeScenarioServlet # duration=158.283ms
+[12/15/14 18:24:29:687 EST] 0000002e EventLogging		I END requestID=AAY6TalVDTO_AAAAAAAAAAK # eventType=websphere.servlet.service # contextInfo=TradeWeb | TradeScenarioServlet # duration=158.283ms
+[12/15/14 18:24:29:687 EST] 0000002e EventLogging		I END requestID=AAY6TalVDTO_AAAAAAAAAAK # eventType=websphere.servlet.service # contextInfo=TradeWeb | TradeScenarioServlet # duration=158.283ms
+[12/15/14 18:24:29:687 EST] 0000002e EventLogging		I END requestID=AAY6TalVDTO_AAAAAAAAAAK # eventType=websphere.servlet.service # contextInfo=TradeWeb | TradeScenarioServlet # duration=158.283ms
+[12/15/14 18:24:29:687 EST] 0000002e EventLogging		I END requestID=AAY6TalVDTO_AAAAAAAAAAK # eventType=websphere.servlet.service # contextInfo=TradeWeb | TradeScenarioServlet # duration=158.283ms
+[12/15/14 18:24:29:687 EST] 0000002e EventLogging		I END requestID=AAY6TalVDTO_AAAAAAAAAAK # eventType=websphere.servlet.service # contextInfo=TradeWeb | TradeScenarioServlet # duration=158.283ms
+[12/15/14 18:24:29:687 EST] 0000002e EventLogging		I END requestID=AAY6TalVDTO_AAAAAAAAAAK # eventType=websphere.servlet.service # contextInfo=TradeWeb | TradeScenarioServlet # duration=158.283ms
+[12/15/14 18:24:29:687 EST] 0000002e EventLogging		I END requestID=AAY6TalVDTO_AAAAAAAAAAK # eventType=websphere.servlet.service # contextInfo=TradeWeb | TradeScenarioServlet # duration=158.283ms
+[12/15/14 18:24:29:687 EST] 0000002e EventLogging		I END requestID=AAY6TalVDTO_AAAAAAAAAAK # eventType=websphere.servlet.service # contextInfo=TradeWeb | TradeScenarioServlet # duration=158.283ms
+[12/15/14 18:24:29:687 EST] 0000002e EventLogging		I END requestID=AAY6TalVDTO_AAAAAAAAAAK # eventType=websphere.servlet.service # contextInfo=TradeWeb | TradeScenarioServlet # duration=158.283ms
+[12/15/14 18:24:29:687 EST] 0000002e EventLogging		I END requestID=AAY6TalVDTO_AAAAAAAAAAK # eventType=websphere.servlet.service # contextInfo=TradeWeb | TradeScenarioServlet # duration=158.283ms
+[12/15/14 18:24:29:687 EST] 0000002e EventLogging		I END requestID=AAY6TalVDTO_AAAAAAAAAAK # eventType=websphere.servlet.service # contextInfo=TradeWeb | TradeScenarioServlet # duration=158.283ms
+[12/15/14 18:24:29:687 EST] 0000002e EventLogging		I END requestID=AAY6TalVDTO_AAAAAAAAAAK # eventType=websphere.servlet.service # contextInfo=TradeWeb | TradeScenarioServlet # duration=158.283ms
