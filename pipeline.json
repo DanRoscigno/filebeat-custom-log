@@ -6,7 +6,8 @@ PUT _ingest/pipeline/samplefromdiscuss2
       "grok": {
         "field": "message",
         "patterns": [
-          "\\[%{DATA:datetime} %{TZ:tz}\\] %{DATA:codeorsomething} %{WORD:filetype}\t\t%{WORD:severity} %{WORD:state} requestID=%{DATA:request} # eventType=%{DATA:eventType} # contextInfo=%{DATA:context} # duration=%{NUMBER:duration}"
+          "\\[%{DATA:datetime} %{TZ:tz}\\] %{DATA:codeorsomething} %{WORD:filetype}\t\t%{WORD:severity} %{WORD:state} requestID=%{DATA:request} # eventType=%{DATA:eventType} # contextInfo=%{DATA:context} # duration=%{NUMBER:duration}",
+          "\\[%{DATA:datetime} %{TZ:tz}\\] %{DATA:codeorsomething} %{WORD:filetype}\t\t%{WORD:severity} %{WORD:state} requestID=%{DATA:request} # eventType=%{DATA:eventType} # contextInfo=%{DATA:context}"
         ],
         "ignore_missing": true
       }
