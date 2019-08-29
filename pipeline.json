@@ -1,0 +1,15 @@
+PUT _ingest/pipeline/samplefromdiscuss
+{
+  "description": "Pipeline for parsing sample logs from a discuss.elastic.co post",
+  "processors": [{
+    "grok": {
+      "field": "message",
+      "patterns":["[%{DATE:date} %{TIME:time} %{TZ:tz}] %{DATA:codeorsomething} %{WORD:filetype:STRING}\t\t%{WORD:severity} %{WORD:state} requestID=%{DATA:request} # eventType=%{DATA:eventType} # contextInfo=%{DATA:context} # duration=%{NUMBER:duration:LONG}"],
+      "ignore_missing": true
+    }
+  },{
+    "remove":{
+      "field": "message"
+    }
+  }]
+}
