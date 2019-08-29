@@ -7,7 +7,7 @@ PUT _ingest/pipeline/samplefromdiscuss2
         "field": "message",
         "patterns": [
           "\\[%{DATA:datetime} %{TZ:tz}\\] %{DATA:codeorsomething} %{WORD:filetype}\t\t%{WORD:severity} %{WORD:state} requestID=%{DATA:request} # eventType=%{DATA:eventType} # contextInfo=%{DATA:context} # duration=%{NUMBER:duration}",
-          "\\[%{DATA:datetime} %{TZ:tz}\\] %{DATA:codeorsomething} %{WORD:filetype}\t\t%{WORD:severity} %{WORD:state} requestID=%{DATA:request} # eventType=%{DATA:eventType} # contextInfo=%{DATA:context}"
+          "\\[%{DATA:datetime} %{TZ:tz}\\] %{DATA:codeorsomething} %{WORD:filetype}\t\t%{WORD:severity} %{WORD:state} requestID=%{DATA:request} # eventType=%{DATA:eventType} # contextInfo=%{GREEDYDATA:context}"
         ],
         "ignore_missing": true
       }
