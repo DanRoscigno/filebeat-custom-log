@@ -1,11 +1,8 @@
 filebeat.inputs:
 - type: log
-
   enabled: true
-
   paths:
     - /home/droscigno/Beats/*.log
-
   pipeline: samplefromdiscuss2
 
 processors:
@@ -13,24 +10,15 @@ processors:
 - add_host_metadata: ~
 
 cloud.id: "custom:ZXVyb3BlLXdlc3QxLmdjcC5jbG91ZC5lcy5pbyQ5NmJkODYwYmFkY2Y0ZDJkODkwZTdhZjdjMDQxNWNlOCRhY2E0YWQyYWE1ZTM0NGM1ODVhYmNmOTA3MjgwMDQ5OA=="
-
 cloud.auth: "${ES_USER}:${ES_USER_PASSWORD}"
 
 setup.dashboards.enabled: false
-
 setup.template.enabled: true
-
 setup.ilm.enabled: false
 
 logging.level: info
-
 logging.selectors: [*]
-
 logging.metrics.enabled: false
-
 logging.to_files: true
-logging.files:
-
 
 xpack.monitoring.enabled: true
-
