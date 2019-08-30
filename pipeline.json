@@ -28,3 +28,19 @@ PUT _ingest/pipeline/samplefromdiscuss2
     }
   ]
 }
+
+POST _ingest/pipeline/samplefromdiscuss2/_simulate
+{
+  "docs": [
+    {
+      "_source": {
+        "message": "[12/15/14 18:24:29:687 EST] 0000002e EventLogging\t\tI END requestID=AAY6TalVDTO_AAAAAAAAAAK # eventType=websphere.servlet.service # contextInfo=TradeWeb | TradeScenarioServlet # duration=158.283ms"
+      }
+    },
+    {
+      "_source": {
+        "message": "[12/15/14 18:24:29:528 EST] 0000002e EventLogging\t\tI BEGIN requestID=AAY6TalVDTO_AAAAAAAAAAK # eventType=websphere.servlet.service # contextInfo=TradeWeb | TradeScenarioServlet"
+      }
+    }
+  ]
+}
