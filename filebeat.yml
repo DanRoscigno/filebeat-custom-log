@@ -4,17 +4,17 @@ filebeat.inputs:
   enabled: true
 
   paths:
-    - /var/log/*.log
+    - /home/droscigno/Beats/*.log
 
-  pipeline:
+  pipeline: samplefromdiscuss2
 
 processors:
 - add_cloud_metadata: ~
 - add_host_metadata: ~
 
-cloud.id:
+cloud.id: "custom:ZXVyb3BlLXdlc3QxLmdjcC5jbG91ZC5lcy5pbyQ5NmJkODYwYmFkY2Y0ZDJkODkwZTdhZjdjMDQxNWNlOCRhY2E0YWQyYWE1ZTM0NGM1ODVhYmNmOTA3MjgwMDQ5OA=="
 
-cloud.auth:
+cloud.auth: "${ES_USER}:${ES_USER_PASSWORD}"
 
 setup.dashboards.enabled: false
 
