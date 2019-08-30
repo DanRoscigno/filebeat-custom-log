@@ -1,0 +1,36 @@
+filebeat.inputs:
+- type: log
+
+  enabled: true
+
+  paths:
+    - /var/log/*.log
+
+  pipeline:
+
+processors:
+- add_cloud_metadata: ~
+- add_host_metadata: ~
+
+cloud.id:
+
+cloud.auth:
+
+setup.dashboards.enabled: false
+
+setup.template.enabled: true
+
+setup.ilm.enabled: false
+
+logging.level: info
+
+logging.selectors: [*]
+
+logging.metrics.enabled: false
+
+logging.to_files: true
+logging.files:
+
+
+xpack.monitoring.enabled: true
+
